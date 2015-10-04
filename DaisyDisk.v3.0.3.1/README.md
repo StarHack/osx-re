@@ -12,8 +12,10 @@ Thus we simply search for references to the beginning of each list and find two 
 
 My approach was to patch the move command to trick the program into thinking the blacklist has a length of 0 bytes which means:
 
+```asm
 -[BlackList isRegistrationKeyCompromised]
 mov r8d, 0x3E -> mov r8d, 0x00
+```
 
 and
 
