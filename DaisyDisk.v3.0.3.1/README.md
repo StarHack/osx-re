@@ -19,7 +19,9 @@ mov r8d, 0x3E -> mov r8d, 0x00
 
 and
 
+```asm
 -[BlackList isRegistrationKeyBlocked]
 mov r8d, 0x5 -> mov r8d, 0x00
+```
 
 After applying those two changes, one could use any serial key (even those which can be found in the blacklist) in order to successfully register the application.
