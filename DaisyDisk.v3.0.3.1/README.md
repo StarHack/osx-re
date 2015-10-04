@@ -10,7 +10,7 @@ In order to bypass the blacklist one could simply overwrite the entire byte rang
 
 Thus we simply search for references to the beginning of each list and find two method called `isRegistrationKeyCompromised` and `isRegistrationKeyBlocked`. Both of these use the corresponding list and use hardcoded values for the length of each list which is being moved to r8d.
 
-My approach was to patch the move command to trick the program into thinking the blacklist has a length of 0 bytes which means:
+My approach was to patch the move command to trick the program into thinking the blacklist has a length of 0 bytes which can be done by applying two minor changes:
 
 ```asm
 -[BlackList isRegistrationKeyCompromised]
