@@ -1,6 +1,6 @@
 DaisyDisk v3.0.3.1 - Blacklist Patch
 ==============
-DaisyDisk is a disk space analyzier. It's a useful tool making it easy to find and delete big files.
+DaisyDisk is a disk space analyzier. It's a useful to find and delete big files on your hard drive.
 
 There are quite a few serial keys available online, but the problem with shared licenses is that they usually get tagged as compromised and blocked by the developer. Needless to say same goes for fraudulently obtained licenses.
 
