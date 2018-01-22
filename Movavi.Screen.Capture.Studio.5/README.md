@@ -11,7 +11,7 @@ Use a Mach-O disassembler of your choice and take a look at the disassembly of t
 We could simply replace the first two lines of code with:
 
 
-```
+```asm
 mov eax, 0x5a
 ret
 ```
